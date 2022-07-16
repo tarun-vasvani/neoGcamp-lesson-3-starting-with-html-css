@@ -12,4 +12,15 @@ font-family: 'Rubik', sans-serif;
 }
     
 
+/** containers**/
+
+.container{
+    padding: 1rem 1rem;
+}
+
+.container-center{
+    max-width: 900px;
+    margin: auto;
+}
+
 
