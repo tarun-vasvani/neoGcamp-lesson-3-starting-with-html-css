@@ -88,6 +88,8 @@ hr{
 }
 
 
+/**header**/
+
 .hero{
     padding: 2rem;
 }
@@ -121,4 +123,21 @@ hr{
 
 .ow{
     background-color: var(--off-white);
+}
+
+/** footer **/
+
+.footer{
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.footer .link{
+    color:white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
