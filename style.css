@@ -4,6 +4,7 @@
 
 :root {
     --primary-color: #fb923c;
+    --grey-shade: #57534e;
 }
 
 
@@ -59,3 +60,48 @@ hr{
     padding: 0rem 0.5rem;
 }
 
+
+/** nav **/
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+
+.hero{
+    padding: 2rem;
+}
+
+.hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero-heading{
+    padding: 2rem;
+    color: var(--grey-shade);
+    text-align: center;
+}
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
+}
