@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;700&family=Nunito&family=Playfair+Display:wght@400;700&family=Rubik:ital,wght@0,400;0,700;1,300&display=swap');
 
+:root {
+    --primary-color: #fb923c;
+}
 
 
 body {
@@ -24,3 +27,19 @@ font-family: 'Rubik', sans-serif;
 }
 
 
+.link{
+    text-decoration: none;
+    padding:0.5rem;
+}
+
+.primary-link{
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;;
+}
+
+.secondary-link{
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+   color: var(--primary-color);
+}
